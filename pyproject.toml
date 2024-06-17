@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "model-serving"
+version = "0.1.0"
+description = ""
+authors = ["jhjeon <powwow94@hanmail.net>"]
+readme = "README.md"
+packages = [{include = "model_serving"}]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+black = "^24.4.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
